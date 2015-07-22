@@ -69,8 +69,17 @@ p{
 	margin: 0 auto;
 	font-size: 1.5em;
 }
+.portfolio-blocks {
+	position: relative;
+	display: block;
+	box-sizing: border-box;
+	float: left;
+}
 .section{
-	text-align:center;
+	text-align: left;
+}
+.gallery {
+	vertical-align: top;
 }
 #menu li {
 	display:inline-block;
@@ -260,6 +269,9 @@ p{
 	width: 50%;
 	margin: 0 auto;
 	font-size: 1.5em;
+}
+.portfolio-projects {
+	vertical-align: top;
 }
 .twitter-share-button{
 	position: absolute;
