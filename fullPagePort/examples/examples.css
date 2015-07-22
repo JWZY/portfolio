@@ -243,11 +243,13 @@ p{
  }
 
 #section0 img,
-#section1 img{
+#section1 img {
 	margin: 20px 0 0 0;
 }
-#section2 img{
-	margin: 20px 0 0 52px;
+#section2 img {
+	margin: 0px 0 0 0px;
+	width: 100%; 
+	position: relative;
 }
 #section3 img{
 	bottom: 0px;
