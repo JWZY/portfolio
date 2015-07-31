@@ -356,9 +356,6 @@ h1, h2, h3 {
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-.portfolio-projects {
-	vertical-align: top;
-}
 .twitter-share-button{
 	position: absolute;
 	z-index: 99;
