@@ -2,7 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Javan Wang | User experience & interface designer </title>
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
 	<link rel="stylesheet" type="text/css" href="examples.css" />
 
@@ -12,14 +16,15 @@
 	<link rel="stylesheet" type="text/css" href="../assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="../assets/css/style-responsive.css">
 
+
 	<script src="../assets/js/jquery.js"></script>
 	<script src="../assets/js/jquery-1.8.3.min.js"></script>
 	<script src="../assets/js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
 	<script src="../assets/js/jquery.scrollTo.min.js"></script>
 
 	<!--common script for all pages-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 	<script type="text/javascript" src="../jquery.fullPage.js"></script>
 	<script type="text/javascript" src="examples.js"></script>
@@ -55,7 +60,7 @@
 							<li data-menuanchor="slide1"><a href="#secondPage/slide1">Profile</a></li>
 							<li data-menuanchor="slide2"><a href="#secondPage/slide2">Timeline</a></li>
 							<li data-menuanchor="slide3"><a href="#secondPage/slide3">Skills</a></li>
-							<li data-menuanchor="slide4"><a href="#secondPage/slide4">Mo shit</a></li>
+							<li data-menuanchor="slide4"><a href="#secondPage/slide4">Design Process</a></li>
 						</ul>
 					</li>
 					<li data-menuanchor="3rdPage"><a href="#3rdPage">Works</a></li>
@@ -90,31 +95,77 @@
 				</div>
 			    <div class="slide" id="slide2" data-anchor="slide2">
 					<div class="intro">
-						<h2>Skills</h2>
-						<ul>
-						<li>Wireframing and mock-ups</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						</ul>
-
-						<h2>Tools</h2>
-						<ul>
-						<li>HTML/CSS(LESS)/javascript</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						<li>HTML/CSS(LESS)/javascript</li>
-						</ul>
+						<div class="col-md-6">
+							<h2>Skills</h2>
+							<ul>
+							<li>User interface design</li>
+							<li>User experience design</li>
+							<li>Front-end development</li>
+							<li>High fidelity wireframing</li>
+							<li>Photography post-processing</li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<h2>Tools</h2>
+							<ul>
+							<li>HTML/CSS(LESS)/JavaScript/JQuery</li>
+							<li>Bootstrap development suite</li>
+							<li>Adobe CC Photoshop, Illustrator, Dreamweaver, InDesign, Premiere</li>
+							<li>UXPin, InVision</li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			    <div class="slide" id="slide3" data-anchor="slide3">
+				<div class="slide" id="slide3" data-anchor="slide3">
 					<div class="intro">
-						<img src="imgs/2.png" alt="Cool" />
-						<h1>Timeline</h1>
-						<p>Brief timeline</p>
+						<!-- Start Timeline -->
+						<div class="container">
+							<div class="timeline">
+								<h2>2013</h2>
+
+								<ul>
+									<li>
+										<h3>Quit my Job</h3>
+										<p>One day, my boss came up to me and asked, "Are you ready, Joe?" Pretty much decided I wasn't ready.</p>
+										<time>August 2013</time>
+									</li>
+									<li>
+										<h3>Started New Job</h3>
+										<p>Began work at the Button Factory. This was probably the best time of my life. I had a wife, a dog, and a family.</p>
+										<time>July 2013</time>
+									</li>
+									<li>
+										<h3>Changed my name to Joe</h3>
+										<p>I was just sick of Josh</p>
+										<time>June 2013</time>
+									</li>
+									<li>
+										<h3>Moved to Iowa</h3>
+										<p>I moved to <a href="#">Ames, Iowa</a> and settled down into my new life.</p>
+										<time>February 2013</time>
+									</li>
+								</ul>
+
+								<h2>2012</h2>
+								<ul>
+									<li>
+										<h3>Graduated College</h3>
+										<p>It only took, like, two years.</p>
+										<time>December 2012</time>
+									</li>
+									<li>
+										<h3>Graduated Community College</h3>
+										<p>Studying Aerospace Engineering.</p>
+										<time>May 2012</time>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Timeline -->
+
 					</div>
 				</div>
-			    <div class="slide" id="slide4" data-anchor="slide4">
+				<div class="slide" id="slide4" data-anchor="slide4">
 					<div class="intro">
 						<img src="imgs/3.png" alt="Compatible" />
 						<h1>My Design Process</h1>

@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	$('#fullpage').fullpage({
-		sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', 'black'],
+		sectionsColor: ['#3e4144', '#3e4144', '#3e4144', '#3e4144'],
 		anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
 		menu: '#menu',
 		scrollingSpeed: 1000,
