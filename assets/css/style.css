@@ -1,9 +1,9 @@
 @import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
 
 body {
-    color: white;
+    color:  #666;
 	background: #f2f2f2;
-    font-family: 'Ruda', sans-serif;
     padding: 0px !important;
     margin: 0px !important;
     font-size:13px;
@@ -79,16 +79,21 @@ a, a:hover, a:focus {
 .no-margin {
     margin: 0 !important;
 }
-
+.portrait {
+    border-radius: 50%;
+    width: 80%;
+}
 /*sidebar navigation*/
 
 #sidebar {
     width: 15%;
     height: 100%;
     position: fixed;
-    background: #f8f8f8;
+    background: white;
 }
-
+.navbar-default {
+    background-color: transparent;
+}
 #sidebar h5 {
 	color: #626262;
 	font-weight: 700;
@@ -149,7 +154,6 @@ ul.sidebar-menu li ul.sub li:hover{
 }
 
 ul.sidebar-menu li ul.sub li a {
-    font-size: 12px;
     padding-left: 5%;
     padding-top: 1%;
     line-height: 35px;
@@ -186,11 +190,12 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #999999;
+    color: #666;
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
-    font-size: 12px;
+    font-size: 20px;
+    font-weight: 300;
     outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
@@ -383,61 +388,6 @@ a.logo span {
     .navbar{
         border-radius: 0px;
     }
-}
-
-/* Gallery Configuration */
-.photo-wrapper {
-  background-color: rgba(0,0,0,0);
-  position: relative;
-  overflow: hidden;
-  width:100%;
-  height: 100%;
-  -webkit-transition: background-color 0.4s;
-  -moz-transition: background-color 0.4s;
-  -o-transition: background-color 0.4s;
-  transition: background-color 0.4s;
-}
-
-.photo-wrapper:hover {
-    background-color: #68dff0;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: relative;
-    width:100%;
-    height: 100%;
-    text-align: center;
-}
-
-.text-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    opacity: 0;
-}
-
-.photo-wrapper:hover .text-wrapper {
-    opacity: 1;
-}
-
-.project-category {
-    text-transform: uppercase;
-    color: white;
-    font-size: 15px;
-}
-
-.project-name {
-    text-transform: capitalize;
-    color: black;
-    font-size: 24px;
-}
-
-.photo-wrapper:hover .photo {
-  opacity: 0.1;
-  filter: alpha(opacity=40);
 }
 .no-gutter > [class*=col-] {
     padding-right: 0;
