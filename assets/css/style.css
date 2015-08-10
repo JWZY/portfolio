@@ -303,45 +303,6 @@ a.logo span {
     margin-left: -180px;
 }
 
-/* Profile 02*/
-#profile-02 {
-	background: url(../img/profile-02.jpg) no-repeat center top;
-	margin-top: -15px;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 200px;
-	width: 100%;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-#profile-02 .user {
-	padding-top: 40px;
-	text-align: center;
-}
-#profile-02 h4 {
-	color: white;
-	margin:0px;
-	padding-top: 8px;
-}
-.pr2-social a {
-	color: #cdcdcd;
-}
-.pr2-social a:hover {
-	color: #68dff0;
-}
-.pr2-social i {
-	margin-top: 15px;
-	margin-right: 12px;
-	font-size: 20px;
-}
-
-
 /* make sidebar nav vertical */
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
@@ -394,30 +355,6 @@ a.logo span {
     padding-left: 0;
 }
 
-/*footer*/
-.site-footer {
-    background: #3C3C3C;
-    color: #fff;
-    padding: 10px 0;
-}
-
-
-.go-top {
-    margin-right: 1%;
-    float: right;
-    background: rgba(255,255,255,.5);
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-}
-
-.go-top i {
-    color: #2A3542;
-}
-
 .site-min-height {
     min-height: 900px;
 }
-
-
