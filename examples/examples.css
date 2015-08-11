@@ -154,6 +154,13 @@ h2 {
 	box-sizing: border-box;
 	float: left;
 }
+.portrait-test {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: auto;
+	padding-right: auto;
+}
 .text-left {
 	text-align: left;
 }
@@ -167,6 +174,10 @@ h2 {
   padding: 1em;
       max-width: 100%;
     margin: 0 auto;
+}
+.vcenter {
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .section{
@@ -400,11 +411,6 @@ p.project-name {
 	right:10px;
 	z-index: 999;
  }
-#section0 {
-	background-image: url(../assets/img/bgsplash2.jpg);
-	background-size: 120%;
-}
-#section0 img,
 #section1 img {
 	margin: 20px 0 0 0;
 }
@@ -417,4 +423,22 @@ p.project-name {
 	bottom: 0px;
 	position: absolute;
 	margin-left: -420px;
+}
+html.fp-enabled, .fp-enabled body {
+	overflow: hidden;
+}
+body.fp-viewing-4thpage {
+	overflow: hidden;
+}
+body.fp-viewing-3rdpage {
+	overflow: hidden;
+}
+body {
+	overflow: hidden;
+}
+body.fp-viewing-firstPage {
+	overflow: hidden;
+}
+body.fp-viewing-secondPage {
+	overflow: hidden;
 }

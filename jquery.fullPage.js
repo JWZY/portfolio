@@ -191,7 +191,7 @@
 
             }else{
                 $htmlBody.css({
-                    'overflow' : 'visible',
+                    'overflow' : 'hidden',
                     'height' : 'initial'
                 });
 
