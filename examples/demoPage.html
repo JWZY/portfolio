@@ -15,6 +15,37 @@
 	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="../assets/slick/slick.css"/>
 	<link rel="stylesheet" type="text/css" href="../assets/slick/hi.css"/>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="../assets/js/bootstrap.min.js"></script>
+
+	<script src="../assets/js/jquery-modals.js"></script>
+
+	<!--common script for all pages-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script src="../assets/js/jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
+	<script src="../assets/js/common-scripts.js"></script>
+	<script type="text/javascript" src="../assets/slick/slick.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$('.jesus').slick({
+				dots: true,
+				arrows: false,
+				autoplay: true,
+				infinite: true,
+				speed: 700,
+				slidesToShow: 1,
+				slidesToSlide: 1,
+				centerMode: true,
+				fade: true
+			});
+		});
+	</script>
+
 </head>
 
 <body>
@@ -22,7 +53,7 @@
 	<div class="sidebar-nav nav-collapse" id="sidebar">
 		<div class="navbar navbar-default" role="navigation">
 			<div class="logo-and-name">
-				<p class="centered visible-sm visible-md visible-lg"><a href="#firstPage"><img src="../assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
+				<p class="centered visible-sm visible-md visible-lg"><a href="#home"><img src="../assets/img/ui-sam.jpg" class="img-circle" width="60"></a></p>
 				<h5 class="centered visible-sm visible-md visible-lg">Javan Wang</h5>
 			</div>
 			<div class="navbar-header">
@@ -33,22 +64,22 @@
 					<span class="icon-bar"></span>
 				</button>
 				<div class="nav-branding">
-				<div class="visible-xs branding-logo"><a href="#firstPage"><img src="../assets/img/ui-sam.jpg" class="img-circle" width="24"></a></div>
+				<div class="visible-xs branding-logo"><a href="#home"><img src="../assets/img/ui-sam.jpg" class="img-circle" width="24"></a></div>
 				<h4 class="visible-xs">Javan Wang</h4></div>
 			</div>
 			<ul class="nav navbar-nav sidebar-menu menu" id="nav-accordion">
 				<div class="navbar-collapse collapse sidebar-navbar-collapse">
-					<li class="active" data-menuanchor="firstPage"><a href="#firstPage">Home</a></li>
+					<li class="active" data-menuanchor="home"><a href="#home">Home</a></li>
 					<li class="sub-menu">
 						<a href="">About</a>
 						<ul class="sub">
-							<li data-menuanchor="slide1"><a href="#secondPage/slide1">Profile</a></li>
-							<li data-menuanchor="slide2"><a href="#secondPage/slide2">Skills</a></li>
-							<li data-menuanchor="slide3"><a href="#secondPage/slide3">Design Process</a></li>
+							<li data-menuanchor="slide1"><a href="#about/slide1">Profile</a></li>
+							<li data-menuanchor="slide2"><a href="#about/slide2">Skills</a></li>
+							<li data-menuanchor="slide3"><a href="#about/slide3">Design Process</a></li>
 						</ul>
 					</li>
-					<li data-menuanchor="3rdPage"><a href="#3rdPage">Works</a></li>
-					<li data-menuanchor="4thpage"><a href="#4thpage">Contact</a></li>
+					<li data-menuanchor="3rdPage"><a href="#portfolio">Works</a></li>
+					<li data-menuanchor="4thpage"><a href="#contact">Contact</a></li>
 					</li>
 				</div>
 			</ul>
@@ -397,39 +428,7 @@
 		</div>
 	</section>
 
-	<script src="../assets/js/jquery.js"></script>
-	<script src="../assets/js/jquery-1.8.3.min.js"></script>
-	<script src="../assets/js/bootstrap.min.js"></script>
-	<script src="../assets/js/jquery.scrollTo.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
-	    <!-- jQuery -->
-    <script src="../assets/js/jquery-modals.js"></script>
-
-	<!--common script for all pages-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script type="text/javascript" src="../jquery.fullPage.js"></script>
-	<script type="text/javascript" src="examples.js"></script>
-	<script src="../assets/js/jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
-	<script src="../assets/js/common-scripts.js"></script>
-	<script type="text/javascript" src="../assets/slick/slick.js"></script>
-
-	<script>
-	$(document).ready(function(){
-	  $('.jesus').slick({
-		  dots: true,
-		  arrows: false,
-		  autoplay: true,
-		  infinite: true,
-		  speed: 700,
-		  slidesToShow: 1,
-		  slidesToSlide: 1,
-		  centerMode: true,
-		  fade: true
-	  });
-	});
-	</script>
 				
 
 

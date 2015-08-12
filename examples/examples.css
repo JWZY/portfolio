@@ -442,3 +442,7 @@ body.fp-viewing-firstPage {
 body.fp-viewing-secondPage {
 	overflow: hidden;
 }
+
+.fp-controlArrow {
+	visibility: hidden;
+}
