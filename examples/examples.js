@@ -5,8 +5,6 @@ $(document).ready(function() {
 		scrollingSpeed: 1000,
 		slidesNavigation: true,
 		autoScrolling: false,
-		allowPageScroll: true,
-		scrollOverflow: true,
 
 	    // Hide the slides container before the next slide loads
 	    onSlideLeave: function(anchorLink, index, slideIndex, direction) {

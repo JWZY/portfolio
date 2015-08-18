@@ -424,28 +424,12 @@ p.project-name {
 	position: absolute;
 	margin-left: -420px;
 }
-/* 
+html.fp-enabled, .fp-enabled body {
+	overflow: visible;
+}
 body.modal-open {
 	overflow: hidden;
 }
-html.fp-enabled, .fp-enabled body {
-	overflow: hidden;
-}
-body.fp-viewing-4thpage {
-	overflow: hidden;
-}
-body.fp-viewing-3rdpage {
-	overflow: hidden;
-}
-body {
-	overflow: hidden;
-}
-body.fp-viewing-firstPage {
-	overflow: hidden;
-}
-body.fp-viewing-secondPage {
-	overflow: hidden;
-} */
 .fp-controlArrow {
 	visibility: hidden;
 }
