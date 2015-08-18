@@ -5,6 +5,7 @@ $(document).ready(function() {
 		scrollingSpeed: 1000,
 		slidesNavigation: true,
 		autoScrolling: false,
+		allowPageScroll: true,
 		scrollOverflow: true,
 
 	    // Hide the slides container before the next slide loads
@@ -18,18 +19,19 @@ $(document).ready(function() {
 	        $('.fp-section').find('.fp-slidesContainer').fadeIn(400);
 	        $.fn.fullpage.setScrollingSpeed(1000);
 	    },
-	    // Hide the slides container before the next slide loads
-	    onLeave: function(index, nextIndex, direction) {
-	        $.fn.fullpage.setScrollingSpeed(0);
-	        //$.fadeOut(1000);
-	        //$('.fp-section').find('.fp-slidesContainer').hide();
-	    },
-	  
-	    // Display the slides container by fading it in after the next slide has been loaded.
-	    afterLoad: function(anchorLink, index) {
-	        $('.fp-section').fadeIn(400);
-	        $.fn.fullpage.setScrollingSpeed(1000);
-	    }
+	});
+});
 
+$(document).ready(function(){
+	$('.jesus').slick({
+		dots: true,
+		arrows: false,
+		autoplay: true,
+		infinite: true,
+		speed: 700,
+		slidesToShow: 1,
+		slidesToSlide: 1,
+		centerMode: true,
+		fade: true
 	});
 });
