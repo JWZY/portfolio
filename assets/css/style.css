@@ -109,10 +109,11 @@ a, a:hover, a:focus {
 }
 /*sidebar navigation*/
 #sidebar {
+    margin-top: 2vh;
     width: 15%;
     height: 100%;
     position: fixed;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255, 0);
     z-index: 5;
 }
 .navbar-default {
@@ -204,22 +205,18 @@ ul.sidebar-menu li ul.sub li.active a {
     display: block;
 }
 
-ul.sidebar-menu li.sub-menu{
-/*  line-height: 15px;
-    margin-top: 25px; */
-}
-
 ul.sidebar-menu li a span{
     display: inline-block;
 }
 
 ul.sidebar-menu li a{
-    color: #666;
+    color: #adadad;
     text-decoration: none;
     display: block;
-    padding: 15px 0 15px 10px;
+    padding: 15px 0 15px 0px;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
+    text-align: center;
     outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
