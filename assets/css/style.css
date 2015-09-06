@@ -101,7 +101,7 @@ a, a:hover, a:focus {
     width: 250px;
     height: 100%;
     position: fixed;
-    background: rgba(255,255,255,0.5);
+    background: rgba(255,255,255, 0.5);
     z-index: 5;
     box-shadow:         -1px 0 5px 0 #555;
 }
@@ -174,7 +174,20 @@ ul.sidebar-menu li a{
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:focus {
     color: #E59825;
     display: block;
+}
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
 
+ul.sidebar-menu li a{
+    color: #adadad;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 15px 0px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    outline: none;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
