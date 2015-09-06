@@ -49,6 +49,7 @@ abbr,acronym { border: 0;
  * --------------------------------------- */
 body{
 	font-family: 'Open Sans', sans-serif;
+   /*font: .75em "helvetica neue", helvetica, arial, sans-serif;*/
 	color: #333;
 }
 .wrap{
@@ -72,7 +73,7 @@ h1{
 .skills-box {
 	display: flex;
 	flex-direction: row;
-	align-items: baseline;
+	align-items: center;
 	width: 100%;
 }
 .skills-wrapper {
@@ -99,7 +100,7 @@ h1{
 	color: #333;
 }
 .social-icons span {
-	font-size: 24px;
+	font-size: 18px;
 	color: #666;
 	font-weight: 300;
 }
@@ -144,9 +145,10 @@ h2 {
 	font-weight: 300;
 }
 .intro p{
-	font-size: 20px;
-	color: #666;
-	font-weight: 300;
+    font-size: 18px;
+    color: #666;
+    font-weight: 300;
+    line-height: 1.75em;
 }
 .portfolio-blocks {
 	position: relative;
@@ -348,8 +350,8 @@ h2 {
 
 /* Gallery Configuration */
 .photo-wrapper {
-  background-color: rgba(0,0,0,0);
   position: relative;
+  cursor: pointer;
   overflow: hidden;
   width:100%;
   height: 100%;
@@ -360,7 +362,7 @@ h2 {
 }
 
 .photo-wrapper:hover {
-    background-color: #68dff0;
+    background-color: rgba(0,0,0,0.8);
 	top: 0;
 	bottom: 0;
 	left: 0;
@@ -369,6 +371,10 @@ h2 {
     width:100%;
     height: 100%;
     text-align: center;
+      -webkit-transition: background-color 0.4s;
+  -moz-transition: background-color 0.4s;
+  -o-transition: background-color 0.4s;
+  transition: background-color 0.4s;
 }
 
 .text-wrapper {
@@ -386,19 +392,26 @@ h2 {
 
 p.project-category {
     text-transform: uppercase;
-    color: white;
+    color: #C8CED0;
+    font-weight: 600;
     font-size: 15px;
 }
 
 p.project-name {
     text-transform: capitalize;
-    color: black;
+    color: white;
+    font-weight: 600;
     font-size: 24px;
+    line-height: 1.2em;
 }
 
 .photo-wrapper:hover .photo {
   opacity: 0.1;
   filter: alpha(opacity=40);
+      -webkit-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 
@@ -412,17 +425,10 @@ p.project-name {
 	z-index: 999;
  }
 #section1 img {
-	margin: 20px 0 0 0;
+	margin: 0 0 0 0;
 }
-#section2 img {
-	margin: 0px 0 0 0px;
-	width: 100%; 
-	position: relative;
-}
-#section3 img{
-	bottom: 0px;
-	position: absolute;
-	margin-left: -420px;
+#section1 .row.row-section {
+	margin-bottom: 60px;
 }
 html.fp-enabled, .fp-enabled body {
 	overflow: visible;
@@ -432,4 +438,10 @@ body.modal-open {
 }
 .fp-controlArrow {
 	visibility: hidden;
+}
+
+img.portrait {
+    border-radius: 50%;
+    width: 60%;
+    margin-top: 0px;
 }
