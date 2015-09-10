@@ -222,7 +222,7 @@ ul.sidebar-menu li a.active i {
 
 .wrapper {
     display: inline-block;
-    padding: 30px;
+    padding: 15px 30px;
     width: 100%;
 }
 
@@ -367,10 +367,9 @@ a:hover, a:focus {
 .intro li.icons {
   width: 40px;
   height: 40px;
-  margin: 18px auto;
-}
-.intro ul {
-  margin-top: 24px;
+  margin: 0px 10px;
+  display: inline;
+  float: left;
 }
 .intro li.icons i {
   display: block;
@@ -379,7 +378,30 @@ a:hover, a:focus {
   border-radius: 4px;
   transition: all .3s;
 }
-.no-margin {
-    margin-left: 0px;
-    margin-right: 0px;
+.email-phone li {
+  display: inline;
+  float: left;
+  font-size: 16px;
+  margin: 0 10px;
+}
+.email-phone i {
+    padding-right: 10px;
+}
+.btn-special {
+    border: 1px solid #E7E9EC;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 40px;
+    margin: 0 10px;
+}
+.btn-special i {
+    padding-right: 5px;
+    font-size: 14px;
+    margin: 0 5px;
+    margin-top: 6px;
+}
+.btn-special:hover, .btn-special:focus, .btn-special:active {
+    color: #F39C12;
+    transition: all 0.3s ease;
 }
