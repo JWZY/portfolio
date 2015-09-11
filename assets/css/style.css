@@ -9,6 +9,9 @@ body {
     font-size:13px;
 }
 
+::-webkit-scrollbar { 
+    display: none; 
+}
 ul li {
     list-style: none;
 }
@@ -24,30 +27,90 @@ a, a:hover, a:focus {
 }
 /* Modal Garbage */
 .modal-dialog {
-    width: 80%;
+    width: 1100px;
 }
 .modal-header {
-    border-bottom: none;
+  border-bottom: none;
     padding: 30px;
 }
 .modal-content {
-    border-radius: 0px;
+    border-radius: 4px;
+    border: none;
 }
 .modal-body {
-    padding-left: 30px;
+    padding: 0px;
+    background: linear-gradient(#E7E9EC, #E7E9EC) 50% 0;
+    background-repeat: no-repeat;
+    background-size: 1040px 1px;
+}
+.modal-footer {
+  border-top: none;
+  background: linear-gradient(#E7E9EC, #E7E9EC) 50% 0;
+  background-repeat: no-repeat;
+  background-size: 1040px 1px;
+}
+.modal-image {
+    width: 62.1%;
+    border-right: solid 1px #e7e9ec;
+}
+.modal-image img {
+    width: 100%;
+    border-bottom-left-radius: 4px;
+}
+.modal-texts {
+    position: absolute;
+    top: 30px;
+    padding-left: 20px;
     padding-right: 30px;
+    width: 37.9%;
+    left: 62.1%;
+}
+.modal-texts .btn-special {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.modal-texts h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6e6e6e;
+    padding-bottom: 15px;
+}
+.modal-texts p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 150%
 }
 .close {
     font-size: 30px;
 }
 .modal-title {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
+    margin-top: 5px;
 }
 .gallery .row {
     padding-bottom: 30px;
 }
-
+.modal-header .close {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.tools-list {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 170%;
+}
+#chem-banners img {
+  padding-top: 1px;
+}
+#eng-patches img {
+  padding-top: 1px;
+}
+.hidden {
+  display: none;
+}
 
 /* Bootstrap Modifications */
 .accordion-heading .accordion-toggle {
