@@ -1,3 +1,6 @@
+<?php
+ob_start( 'ob_gzhandler' );
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -12,24 +15,6 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-responsive.css">
-	<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.5.6/slick.css"/>
-
-	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
-	<script src="assets/js/jquery-modals.js"></script>
-
-	<!--common script for all pages-->
-	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
-	<script src="assets/js/jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
-	<script src="assets/js/common-scripts.js"></script>
-	<script type="text/javascript" src="assets/vendors/jquery.slimscroll.min.js"></script>
-	<script type="text/javascript" src="assets/js/jquery.nicescroll.js"></script>
-	<script type="text/javascript" src="jquery.fullPage.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
@@ -65,7 +50,7 @@
 			</section>
 			<section>
 				<ul class="contact-icons">
-					<li class="icons"><a href="mailto:psyjavan@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+					<li class="icons"><a href="mailto:javan.z.wang@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
 					<li class="icons"><a href="https://github.com/JWZY/" target="_blank"><i class="fa fa-github"></i></a></li>
 					<li class="icons"><a href="https://www.behance.net/JWZY/" target="_blank"><i class="fa fa-behance"></i></a></li>
 				</ul>
@@ -86,7 +71,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/rm-branding-splash.png">
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/2458d629487859.55f5e797c11cd.png">
+						<!-- <img src="assets/img/portfolio/rm-branding-splash.png"> -->
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -118,7 +104,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/rm-webdesign-splash.png">
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/2c8ffe29487859.55f5e797c37e5.png">
+						<!-- <img src="assets/img/portfolio/rm-webdesign-splash.png"> -->
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -179,7 +166,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/gr-dashboard.png">
+						<!-- <img src="assets/img/portfolio/gr-dashboard.png"> -->
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/e7e11c29487859.55f5e797bedc6.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -211,7 +199,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/gr-branding.png">
+						<!-- <img src="assets/img/portfolio/gr-branding.png"> -->
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/0c33eb29487859.55f5e797bfd37.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -243,7 +232,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/comingsoon.png">
+						<!-- <img src="assets/img/portfolio/comingsoon.png"> -->
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/f0fe6229487859.55f5e797bc826.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -271,7 +261,8 @@
 					</div>
 					<div class="modal-body">
 						<div class="modal-image">
-						<img src="assets/img/portfolio/rainmeter-splash.png">
+						<!-- <img src="assets/img/portfolio/rainmeter-splash.png"> -->
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/87930c29487859.55f5e797c2396.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -303,6 +294,7 @@
 					<div class="modal-body">
 						<div class="modal-image">
 						<img src="assets/img/portfolio/chem-poster-splash.png">
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/e3462529487859.55f5e797bb5f2.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
@@ -505,8 +497,8 @@
 						</div>
 						<hr>
 						<div class="row">
-							<a href="assets/resume.pdf" class="btn btn-special hidden" target="_blank"><i class="fa fa-user"></i> View My Resume</a>
-							<a class="btn btn-special" target="_blank"><i class="fa fa-envelope"></i> psyjavan@gmail.com</a>
+							<a href="resume.pdf" class="btn btn-special" target="_blank"><i class="fa fa-user"></i> View My Resume</a>
+							<a href="mailto:javan.z.wang@gmail.com" class="btn btn-special" target="_blank"><i class="fa fa-envelope"></i> javan.z.wang@gmail.com</a>
 							<a class="btn btn-special"><i class="fa fa-phone"></i> 647-772-5179</a>
 						</div>
 					</div>
@@ -514,10 +506,16 @@
 			</div>
 		</div>
 	</section>
-
-
-				
-
-
 </body>
 </html>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="assets/js/jquery-modals.js"></script>
+	<!--common script for all pages-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+	<script src="assets/js/jquery.dcjqaccordion.2.7.js" class="include" type="text/javascript"></script>
+	<script src="assets/js/common-scripts.js"></script>
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script src="assets/js/bootstrap.min.js"></script>
