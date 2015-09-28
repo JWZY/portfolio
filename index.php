@@ -20,25 +20,14 @@ ob_start( 'ob_gzhandler' );
 <body>
 <section>
 	<div class="sidebar-nav nav-collapse" id="sidebar">
-		<div class="navbar navbar-default" role="navigation">
+		<div class="navbar navbar-default visible-sm visible-md visible-lg" role="navigation">
 			<div class="logo-and-name">
 				<p class="centered visible-sm visible-md visible-lg"><a href="#portfolio"><img src="assets/img/logo2.png" width="150"></a></p>
 			</div>
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<div class="nav-branding">
-				<div class="visible-xs branding-logo"><a href="#portfolio"><img src="assets/img/logo2.png" width="24"></a></div>
-				<h4 class="visible-xs">Javan Wang</h4></div>
-			</div>
-			<section>
+			<section class="visible-sm visible-md visible-lg">
 				<h5 class="centered visible-sm visible-md visible-lg">UI / UX Designer</h5>
 			</section>
-			<section>
+			<section class="visible-sm visible-md visible-lg">
 			<ul class="nav navbar-nav sidebar-menu menu" id="nav-accordion">
 				<div class="navbar-collapse collapse sidebar-navbar-collapse">
 					<li class="active" data-menuanchor="portfolio"><a href="#portfolio">Works</a></li>
@@ -48,7 +37,7 @@ ob_start( 'ob_gzhandler' );
 				</div>
 			</ul>
 			</section>
-			<section>
+			<section class="visible-sm visible-md visible-lg">
 				<ul class="contact-icons">
 					<li class="icons"><a href="mailto:javan.z.wang@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
 					<li class="icons"><a href="https://github.com/JWZY/" target="_blank"><i class="fa fa-github"></i></a></li>
@@ -61,6 +50,44 @@ ob_start( 'ob_gzhandler' );
 
 	<!-- ============ Modals ============ -->
 	<section>
+
+		<!-- Roadmunk Applications -->
+		<div class="modal" id="rm-app" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						<h4 class="modal-title" id="myModalLabel">Roadmunk | Application UX Design</h4>
+					</div>
+					<div class="modal-body">
+						<div class="modal-image">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/3b0f5429871621.56087a1065ad7.png">
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/d0da1d29871621.56087a1066f88.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/5e5e0729871621.56087a1068265.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/86699729871621.56087a106956a.png">
+						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/1400/29f99029871621.56087a106a941.png">
+						<!-- <img src="assets/img/portfolio/rm-branding-splash.png"> -->
+						</div>
+						<div class="modal-texts">
+							<h4>About</h4>
+							<p>Roadmunk is an enterprise SaaS platform that enables product innovators and their teams to communicate the strategic roadmap throughout their organization.<br> <br>
+							The branding strategy makes use of a trio of upbeat and bright colors from the orange, blue and green palettes. 
+							<br> <br>
+							Business cards, documentation covers, and logotypes are displayed in this branding project.
+							</p>
+							<h4>Tools Used</h4>
+							<ul class="tools-list">
+							<li> - Adobe Photoshop for rendering & graphics</li>
+							<li> - Adobe Illustrator for graphics & layout</li>
+							</ul>
+							<a href="https://www.behance.net/gallery/29871621/Roadmunk-Application-UX-Design" class="btn btn-special" target="_blank"><i class="fa fa-behance"></i> View on Behance</a>
+							<a href="" class="btn btn-special hidden" target="_blank"><i class="fa fa-dribbble"></i> View on Dribbble</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- Roadmunk Branding -->
 		<div class="modal" id="rm-branding" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 			<div class="modal-dialog" role="document">
@@ -233,17 +260,21 @@ ob_start( 'ob_gzhandler' );
 					<div class="modal-body">
 						<div class="modal-image">
 						<!-- <img src="assets/img/portfolio/comingsoon.png"> -->
-						<img src="https://mir-cdn.behance.net/v1/rendition/project_modules/max_1200/f0fe6229487859.55f5e797bc826.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e1ced29867007.56083c69ca204.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/9a152729867007.56083c69cb328.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/28ce8329867007.56083c69c9174.png">
+						<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/cd7d9429867007.56083c69c8159.png">
 						</div>
 						<div class="modal-texts">
 							<h4>About</h4>
-							<p>Coming Soon!
+							<p>A series of patch prototypes for distribution use for the Engineering Society at the University of Waterloo. The icon and graphics were designed using Illustrator. The canvas mockup was done using Photoshop.
 							</p>
 							<h4>Tools Used</h4>
 							<ul class="tools-list">
-							<li> - Coming Soon!</li>
+							<li> - Adobe Illustrator for graphics & asset design</li>
+							<li> - Adobe Photoshop for mockups & layout</li>
 							</ul>
-							<a href="" class="btn btn-special hidden" target="_blank"><i class="fa fa-behance"></i> View on Behance</a>
+							<a href="https://www.behance.net/gallery/29867007/UWaterloo-Eng-Soc-Patch-Designs-Civil-Engineering" class="btn btn-special" target="_blank"><i class="fa fa-behance"></i> View on Behance</a>
 							<a href="" class="btn btn-special hidden" target="_blank"><i class="fa fa-dribbble"></i> View on Dribbble</a>
 						</div>
 					</div>
@@ -320,6 +351,18 @@ ob_start( 'ob_gzhandler' );
 				<div class="intro">
 					<div class="wrapper site-min-height">
 						<div class="row">
+							<div class="col-sm-6 col-md-4 col-lg-3">
+								<div class="photo-wrapper" data-toggle="modal" data-target="#rm-app">
+									<div class="text-wrapper">
+										<p class="project-category">Summer 2015</p>
+										<p class="project-name">Roadmunk | Application UX Design</p>
+									</div>
+									<div class="photo">
+										<img class="portfolio-blocks" src="assets/img/portfolio/rm-app-cover.png"/>
+									</div>
+								</div>
+							</div>
+
 							<div class="col-sm-6 col-md-4 col-lg-3">
 								<div class="photo-wrapper" data-toggle="modal" data-target="#rm-branding">
 									<div class="text-wrapper">
@@ -430,14 +473,14 @@ ob_start( 'ob_gzhandler' );
 								<div class="col-md-4">
 									<img src="assets/img/portrait.png" class="portrait">
 								</div>
-								<div class="col-md-8">
+								<div class="col-md-8 responsive-padding">
 
 									<p class="text-left">I'm a designer based in Toronto and Waterloo. I'm currently studying towards an engineering degree at the University of Waterloo. I'm an aspiring designer and developer — most specialized in user interface, experience, and branding design. I'm also proficient at handling web and traditional graphics.</p><br>
 
 									<p class="text-left">I have over four years of experience with Adobe Photoshop and Illustrator, and two years of working experience in front-end design and development. I'm familiar with the phases and process of agile software development, having worked closely with developers to implement new features and designs.</p>
 								</div>
 							</div>
-							<div class="row row-section">
+							<div class="row row-section visible-sm visible-md visible-lg">
 							<h2>Skills</h2>
 								<div class="row skills-box no-margin">
 									<div class="col-md-3">
@@ -479,7 +522,7 @@ ob_start( 'ob_gzhandler' );
 						<div class="row">
 							<h1 class="major-heading">Contact</h1>
 						</div>
-						<div class="row">
+						<div class="row responsive-padding2">
 							<p>If you have a idea for a project we can collaborate on, I would love to hear about it and discuss the details. </p><br>
 							<p>Contact me by dropping a line via email, phone, or social media, and I will try to get back to you as soon as possible.</p><br>
 							<p>My greatest expertise is in UI/UX design, but will gladly accept and handle graphic design and branding projects as well.</p>
@@ -496,10 +539,15 @@ ob_start( 'ob_gzhandler' );
 							</div>
 						</div>
 						<hr>
-						<div class="row">
+						<div class="row visible-sm visible-md visible-lg">
 							<a href="resume.pdf" class="btn btn-special" target="_blank"><i class="fa fa-user"></i> View My Resume</a>
 							<a href="mailto:javan.z.wang@gmail.com" class="btn btn-special" target="_blank"><i class="fa fa-envelope"></i> javan.z.wang@gmail.com</a>
 							<a class="btn btn-special"><i class="fa fa-phone"></i> 647-772-5179</a>
+						</div>
+						<div class="row visible-xs">
+							<a href="resume.pdf" class="btn btn-special" target="_blank"><i class="fa fa-user"></i></a>
+							<a href="mailto:javan.z.wang@gmail.com" class="btn btn-special" target="_blank"><i class="fa fa-envelope"></i></a>
+							<a class="btn btn-special"><i class="fa fa-phone"></i></a>
 						</div>
 					</div>
 				</div>

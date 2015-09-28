@@ -462,12 +462,19 @@ a:hover, a:focus {
     margin: 0 10px;
 }
 .btn-special i {
-    padding-right: 5px;
     font-size: 14px;
-    margin: 0 5px;
+    margin: 5px;
     margin-top: 6px;
 }
 .btn-special:hover, .btn-special:focus, .btn-special:active {
     color: #F39C12;
     transition: all 0.3s ease;
+}
+@media (max-width: 767px) {
+    .responsive-padding {
+        padding: 30px;
+    }
+    .responsive-padding2 {
+        padding: 0 30px;
+    }
 }

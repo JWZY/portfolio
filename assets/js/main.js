@@ -4,7 +4,8 @@ $(document).ready(function() {
 		menu: '#menu',
 		scrollingSpeed: 1000,
 		slidesNavigation: true,
-		autoScrolling: false
+		autoScrolling: false,
+		fitToSection: false
 
 	    // Hide the slides container before the next slide loads
 	    //onSlideLeave: function(anchorLink, index, slideIndex, direction) {
