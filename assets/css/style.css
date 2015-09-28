@@ -1,0 +1,473 @@
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800);
+
+body {
+    color:  #666;
+	background: #FAFAFA;
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size:13px;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+ul li {
+    list-style: none;
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+/* Modal Garbage */
+.modal-dialog {
+    width: 1100px;
+}
+.modal-header {
+  border-bottom: none;
+    padding: 30px;
+}
+.modal-content {
+    border-radius: 4px;
+    border: none;
+}
+.modal-body {
+    padding: 0px;
+    background: linear-gradient(#E7E9EC, #E7E9EC) 50% 0;
+    background-repeat: no-repeat;
+    background-size: 1040px 1px;
+}
+.modal-footer {
+  border-top: none;
+  background: linear-gradient(#E7E9EC, #E7E9EC) 50% 0;
+  background-repeat: no-repeat;
+  background-size: 1040px 1px;
+}
+.modal-image {
+    width: 62.1%;
+    border-right: solid 1px #e7e9ec;
+}
+.modal-image img {
+    width: 100%;
+    border-bottom-left-radius: 4px;
+}
+.modal-texts {
+    position: absolute;
+    top: 30px;
+    padding-left: 20px;
+    padding-right: 30px;
+    width: 37.9%;
+    left: 62.1%;
+}
+.modal-texts .btn-special {
+  margin-left: 0px;
+  margin-right: 20px;
+}
+.modal-texts h4 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #6e6e6e;
+    padding-bottom: 15px;
+}
+.modal-texts p {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 150%
+}
+.close {
+    font-size: 30px;
+}
+.modal-title {
+    font-size: 22px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.gallery .row {
+    padding-bottom: 30px;
+}
+.modal-header .close {
+    margin-right: 15px;
+    margin-top: 5px;
+}
+.tools-list {
+  font-weight: 300;
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 170%;
+}
+#chem-banners img {
+  padding-top: 1px;
+}
+#eng-patches img {
+  padding-top: 1px;
+}
+.hidden {
+  display: none;
+}
+
+/* Bootstrap Modifications */
+.accordion-heading .accordion-toggle {
+	display: block;
+	cursor: pointer;
+	border-top: 1px solid #F5F5F5;
+	padding: 5px 0px;
+	line-height: 28.75px;
+	text-transform: uppercase;
+	color: #1a1a1a;
+	background-color: #ffffff;
+	outline: none !important;
+	text-decoration: none;
+}	
+
+/*Helpers*/
+
+.centered {
+    text-align: center;
+}
+
+.goleft {
+    text-align: left;
+}
+
+.goright {
+    text-align: right;
+}
+
+.mt {
+    margin-top: 25px;
+}
+
+.mb {
+    margin-bottom: 25px;
+}
+
+.ml {
+    margin-left: 5px;
+    }
+
+.no-padding {
+    padding: 0 !important;
+}
+
+.no-margin {
+    margin: 0 !important;
+}
+/*sidebar navigation*/
+#sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    background: rgba(255,255,255, 1);
+    z-index: 5;
+    box-shadow:         -1px 0 5px 0 #555;
+}
+.navbar-default {
+    background-color: transparent;
+}
+#sidebar h5 {
+	color: #626262;
+	font-weight: 700;
+}
+
+#sidebar ul li {
+    position: relative;
+}
+
+#sidebar .sub-menu > .sub li  {
+}
+
+/*LEFT NAVIGATION ICON*/
+.dcjq-icon {
+    height:17px;
+    width:17px;
+    display:inline-block;
+    background: url("../img/nav-expand.png") no-repeat top;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    position:absolute;
+    right:10px;
+    top:15px;
+}
+.active .dcjq-icon {
+    background: url("../img/nav-expand.png") no-repeat bottom;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+/*---*/
+@media (min-width: 768px) {
+    .logo-and-name {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.nav-collapse.collapse {
+    display: inline;
+}
+
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
+
+ul.sidebar-menu li a{
+    color: #6e6e6e;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+ul.sidebar-menu li a.active, ul.sidebar-menu li a:focus {
+    color: #E59825;
+    display: block;
+}
+ul.sidebar-menu li a span{
+    display: inline-block;
+}
+
+ul.sidebar-menu li a:hover {
+    color: #F39C12;
+    display: block;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+
+ul.sidebar-menu li a i {
+    font-size: 15px;
+    padding-right: 6px;
+}
+
+ul.sidebar-menu li a:hover i, ul.sidebar-menu li a:focus i {
+    color: #fff;
+}
+
+ul.sidebar-menu li a.active i {
+    color: #fff;
+}
+
+
+.mail-info, .mail-info:hover {
+    margin: -3px 6px 0 0;
+    font-size: 11px;
+}
+
+/* MAIN CONTENT CONFIGURATION */
+#main-content {
+    margin-left: 250px;
+}
+
+.header, .footer {
+    min-height: 60px;
+    padding: 0 15px;
+}
+
+.wrapper {
+    display: inline-block;
+    padding: 15px 30px;
+    width: 100%;
+}
+
+a.logo {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+a.logo b {
+    font-weight: 900;
+}
+
+a.logo:hover, a.logo:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a.logo span {
+    color: #b4b4b4;
+}
+
+/*--sidebar toggle---*/
+
+.sidebar-toggle-box {
+    float: left;
+    padding-right: 15px;
+    margin-top: 20px;
+}
+
+.sidebar-toggle-box .fa-bars {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+
+/* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+  }
+  .sidebar-nav .navbar ul:not {
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-bottom: 30px;
+  }
+}
+.navbar-toggle {
+    float: left;
+    border: none;
+}
+.nav-branding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.branding-logo {
+    padding-right: 12px;
+}
+.navbar {
+    border: none;
+}
+@media (min-height: 768px) {
+    .navbar{
+        border-radius: 0px;
+    }
+}
+.no-gutter > [class*=col-] {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.site-min-height {
+    min-height: 950px;
+}
+
+.navbar section {
+  text-align: center;
+  width: 140px;
+  margin: 0 auto;
+  padding: 10px 0;
+  vertical-align: middle;
+  background: linear-gradient(#E7E9EC, #E7E9EC) 50% 0;
+  background-repeat: no-repeat;
+  background-size: 80px 1px;
+}
+.navbar li.icons {
+  width: 40px;
+  height: 40px;
+  margin: 18px auto;
+}
+.navbar ul {
+  margin-top: 30px;
+}
+.navbar li.icons i {
+  display: block;
+  border: 1px solid #E7E9EC;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all .3s;
+}
+.navbar h5 {
+  margin: 25px 0;
+}
+a {
+    color: #6e6e6e;
+}
+.contact-icons {
+    font-size: 15px;
+    margin-top: 0px;
+}
+a:hover, a:focus {
+    color: #E59825;
+}
+.intro li.icons {
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+  display: inline;
+  float: left;
+}
+.intro li.icons i {
+  display: block;
+  border: 1px solid #E7E9EC;
+  padding: 10px;
+  border-radius: 4px;
+  transition: all .3s;
+}
+.email-phone li {
+  display: inline;
+  float: left;
+  font-size: 16px;
+  margin: 0 10px;
+}
+.email-phone i {
+    padding-right: 10px;
+}
+.btn-special {
+    border: 1px solid #E7E9EC;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 11px;
+    height: 40px;
+    margin: 0 10px;
+}
+.btn-special i {
+    padding-right: 5px;
+    font-size: 14px;
+    margin: 0 5px;
+    margin-top: 6px;
+}
+.btn-special:hover, .btn-special:focus, .btn-special:active {
+    color: #F39C12;
+    transition: all 0.3s ease;
+}
